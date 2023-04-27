@@ -3,7 +3,7 @@
 * [Markdown](notes/00-markdown.md)  
 * [GIT](notes/01-git.md)  
 * [CSS](notes/02-css.md)  
-* [HTML](notes/03-html.md)  
+* [HTML](notes/03-html.md)
 * [Bootstrap](notes/04-bootstrap.md)  
 * [JavaScript](notes/05-javascript.md)  
 * [MVC](notes/06-mvc.md)  
