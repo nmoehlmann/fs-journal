@@ -37,7 +37,39 @@ box-sizing: content-box / border-box; usually needed for margin issues. It basic
 border: none; gets rid of all the preset styling
 
 # Hover 
-drop-shadow() 
+drop-shadow()
+
+## background-image: url(the link)
+
+can use background-position: center; to center image.
+background-size: cover;
+background-repeat: none;
+
+## image
+
+instead of background we use object.
+object-fit: cover;
+object-position: center;
+
+# you can use text-center on images because they are inline. USING D-FLEX ON COLUMNS IS NOT GOOD!!!
+
+# glassmorphism
+
+glassmorphism generator allows you to create a slightly transparent card.
+
+# elevation
+elevation and be used instead of box shadow
+
+# media rules
+
+@media (max-width: 768px) {
+
+}
+
+put parameters in the parenthesis and everything that takes affect when those parameters are met.
+
+
+
 
 
 

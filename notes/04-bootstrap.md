@@ -28,3 +28,19 @@ containers has margin and padding to start
 
 container-fluid will get rid of that margin and take up the whole viewport.
 
+# Figma Notes / not related to bootstrap
+
+You can export things from figma. Best to use svg because its more dynamic
+
+control g groups objects together
+
+can use col-10 and such instead of using margin and padding to fill in grid.
+
+# position Absolute and Relative
+
+Used to position something on the parent element.
+
+
+
+ 
+
