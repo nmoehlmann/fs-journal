@@ -1,11 +1,12 @@
 # Intro to JavaScript
 01. Which keywords are used to declare a variable in JavaScript?
 
-    > | ANSWER HERE |
+    > Var, Let, and Const
 
 02. What is the definition of a function?
 
-    > | ANSWER HERE |
+    > A function is a defined program designed to perform a particular task.
+    Its basically a stored block of code that can be invoked and called.
 
 03. What are the `SOLID` principles?
 
@@ -38,11 +39,19 @@
 
 06. Give an example of a JavaScript `Conditional`:
 
-    > | ANSWER HERE |
+    > let x = 1
+    > let y = 2
+
+    if (x == y){
+        console.log('x is equal to y')
+    }
+    <!-- nothing will show up in the console because x is in fact NOT equal to y -->
 
 07. What is the main difference between `parameters` and `arguments`?
 
-    > | ANSWER HERE |
+    > Parameters are names created for functions. Arguments are values given to the function to invoke it.
+
+    basically, if a function is given a parameter, it cannot be invoked until the function is given the proper argument that meats the requirements of the parameter.
 
 08. Instead of writing everything to the console, what is a better way to debug your code?
 
@@ -50,8 +59,9 @@
 
 09. What is the difference between a `primitive` value and a `reference` value?
 
-    > | ANSWER HERE |
+    > A primitive value can be undefined, null, boolean, number, or string.
+    > A reference value is an object with primitive value properties.
 
 10. Demonstrate a loop that prints the numbers between -100 and 100?
 
-    > | ANSWER HERE |
+    > 
