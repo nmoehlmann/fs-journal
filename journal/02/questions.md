@@ -10,7 +10,17 @@
 
 03. What are the `SOLID` principles?
 
-    > | ANSWER HERE |
+    >single responsibility: when writing something like a function. You should not make a single function responsible for many different things.
+    It is often better to create a function that does one thing then calls for another function to do another thing.
+
+    >open-closed principle: As you develop your site, things change. Creating a class that can be extended upon is much better than changing the class itself.
+
+    >liskov substitution principle: Its basically the idea that as you change something in your code, your going to need to factor in the rest of the code that is impacted by that change.
+
+    >interface segregation principle: Avoiding the use of one big generalized interface over smaller specific ones.
+
+    >dependency inversion principle: Make your code depend on abstractions over concretions. It will make it more flexible and reusable. 
+
 
 04. Given this array: How could you remove the `pineapple`?
 
@@ -18,7 +28,7 @@
     let fruit = ['apple', 'banana', 'pineapple', 'orange', 'strawberry']
     ```
 
-    > | ANSWER HERE |
+    > fruit.splice(pineapple)
 
 05. Given these two objects: How could you add each to the others friends arrays?
 
@@ -35,7 +45,8 @@
     }
     ```
 
-    > | ANSWER HERE |
+    > them.friends.push(you.name, you.hair)
+    > you.friends.push(them.name, them.hair)
 
 06. Give an example of a JavaScript `Conditional`:
 
@@ -55,7 +66,7 @@
 
 08. Instead of writing everything to the console, what is a better way to debug your code?
 
-    > | ANSWER HERE |
+    > A potential way is to use debugger on a function to debug it through dev tools.
 
 09. What is the difference between a `primitive` value and a `reference` value?
 
@@ -64,4 +75,6 @@
 
 10. Demonstrate a loop that prints the numbers between -100 and 100?
 
-    > 
+    >  for (let i = -100; i <= 100; i++){
+        console.log(i);
+    }
