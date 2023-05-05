@@ -68,6 +68,10 @@ elevation and be used instead of box shadow
 
 put parameters in the parenthesis and everything that takes affect when those parameters are met.
 
+# view height
+
+dvh: dynamic view height, better version of view height i guess 
+
 
 
 
