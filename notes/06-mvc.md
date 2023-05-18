@@ -70,3 +70,21 @@ must use this.'key' in order to define constructor variable.
 
 ## getter
 >inside the 'Car.js' we set a bunch of data in the constructor so that we can utilize it with the getter. this.year = data.year. we are pulling data.year from the AppState and setting it within this.year.
+
+# MVC AUTH
+
+paste key stuff in the env.js file. domain, audience, clientID.
+
+base URL swap to sandbox webpage url.
+
+the auth token is the accounts id.
+
+## router.js
+
+basically tells the application which controller to use depending on which page you on.
+
+# api stuff 
+ 
+when pulling api data the objects that are "required" are necessary or it will throw error.
+
+
