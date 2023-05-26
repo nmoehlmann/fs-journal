@@ -88,3 +88,21 @@ basically tells the application which controller to use depending on which page 
 when pulling api data the objects that are "required" are necessary or it will throw error.
 
 
+
+#  Backend stuff
+
+# package.json
+dependencies are all of the external libraries included.
+
+> "npm i" installs all the dependencies for particular project.
+>  
+
+gets dont have bodies / posts and puts do 
+
+
+# account user info  
+
+user is auth0 data base, account is users data base.
+
+mongoose.model('car', CarSchema) first one is making it is the data base, the second is declaring it. 
+
