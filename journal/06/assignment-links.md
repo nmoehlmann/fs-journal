@@ -1,6 +1,6 @@
 ## Afternoon Assignment Links
 
-* **[Repo](https://github.com/nmoehlmann/<ASSIGNMENT_REPO>)**
-* **[Repo](https://github.com/nmoehlmann/<ASSIGNMENT_REPO>)**
-* **[Repo](https://github.com/nmoehlmann/<ASSIGNMENT_REPO>)**
-* **[Repo](https://github.com/nmoehlmann/<ASSIGNMENT_REPO>)**
+* **[Repo](https://github.com/nmoehlmann/vuePlayground)**
+* **[Repo](https://github.com/nmoehlmann/lateSpring23_gregslistVue)**
+* **[Repo](https://github.com/nmoehlmann/vueGifted)**
+* **[Repo](https://github.com/nmoehlmann/bueBlogger)**
