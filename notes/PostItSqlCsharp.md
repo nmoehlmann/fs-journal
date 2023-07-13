@@ -197,6 +197,32 @@ ExecuteScalar returns the LAST_INSERT_ID.
 
 We arent going through different objects and digging into it to see objects associated with it.
 
+# get request for albums by collaborator
 
+getting back a list of albums because 1 collaborator can have many albums.
 
+a collaborator has its own id. the account has ITS own id. these are two separate things except that the collaborator id is extended from the account model.
 
+when we query we are using collaborator and collaboratorAccount. We are returning a collaboratorAccount.
+
+remember that when you pass an id that is referenced by dapper we need to pass it as an object: KEY VALUE pair so that it recognized what it is and what value to use. If its passed as a number, it doesn't know what to do with it.
+
+Ultimately, the collaborator id is there so that we have access to it. We can find it by id, we can delete it.
+
+# get all my albums that I collaborated on
+
+We need to use the Auth0 provider for access to our userInfo. Remember that HTTPcontext is basically the req that gets sent to the server.
+
+We are going to try and get a collaborator and then populate the albums its a little wacky wild.
+It actually makes sense because all we are doing is getting OUR collaborator and then populating all the albums associated with its id. Thats big brain.
+
+We need to populate the creator as well. this means we need to add the logic to our sql so that we are joining the act who's id matches the creatorId of the album.
+
+# delete collaborator
+
+controller
+use auth0 to verify if you are authorized to delete.
+
+service
+Write out get by id function so its accessible.
+auth check
