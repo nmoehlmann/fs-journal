@@ -26,6 +26,24 @@ can use v-if and v-else to create a loading screen before the restaurant actuall
 
 where is filter for c#
 
+You can call functions in the auth service so that you only get things after the account is authenticated. very good for getting MY stuff and account related things.
+
+on buttons, type="reset" clears the form it is in.
+
+.FirstOrDefault returns one object. the Query gives a list so we use that method to return only one thing. first method will give back one thing as well but if the array returns empty then it will throw an error.
+
+when trying to compare a property on two different objects that have the same name, you will get an error. You must alias it out and then use the property so SQL knows which is which.
+
+if you use setup in the script: <script setup>, you can use const props = defineProps({}) and then put props inide the props.
+
+the title attribute puts a tooltip on the given element. cool
+
+you can put properties in the modals that arent in the database. these properties can be populated and virtualized in the repo.
+
+we can use a COUNT to basically only get a certain number back determined by a conditional SQL. we use this to get the reports. we use LEFT JOIN because we dont want to join anything that isnt the id that we are comparing.
+
+can use emitters to execute functions when they are triggered. its a listener.
+
 
 # backend
 
